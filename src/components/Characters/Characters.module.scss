@@ -1,0 +1,30 @@
+.block {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0;
+
+  .title {
+    margin: 0;
+    padding-bottom: 16px;
+  }
+
+  .characters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    max-width: 1800px;
+    justify-content: center;
+
+    .character {
+      flex: 1;
+      min-width: 271px;
+      max-width: 271px;
+
+      .characterImg {
+        width: 100%;
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+Model Information:
+* title:	Grunkle Stan
+* source:	https://sketchfab.com/3d-models/grunkle-stan-63eef1e7790547efbbc5a5b7ee119cf8
+* author:	FDU_oficial (https://sketchfab.com/FDU_oficial)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Grunkle Stan" (https://sketchfab.com/3d-models/grunkle-stan-63eef1e7790547efbbc5a5b7ee119cf8) by FDU_oficial (https://sketchfab.com/FDU_oficial) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

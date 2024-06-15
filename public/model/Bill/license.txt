@@ -1,0 +1,11 @@
+Model Information:
+* title:	Bill - Gravity Falls
+* source:	https://sketchfab.com/3d-models/bill-gravity-falls-d90b12ded0024cd2a0d3940eaffc4c48
+* author:	David Junghanns (https://sketchfab.com/davidju)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Bill - Gravity Falls" (https://sketchfab.com/3d-models/bill-gravity-falls-d90b12ded0024cd2a0d3940eaffc4c48) by David Junghanns (https://sketchfab.com/davidju) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

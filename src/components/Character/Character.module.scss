@@ -1,0 +1,33 @@
+.block {
+  height: 100dvh;
+  display: flex;
+  justify-content: space-between;
+
+  .imgBlock {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+      height: 80%;
+    }
+  }
+  .textBlock {
+    width: 50%;
+    padding: 5% 0;
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+
+    .center {
+        min-width: 60%;
+        max-width: 85%;
+      .name {
+        font-weight: 700;
+        font-size: 34px;
+        text-align: left;
+      }
+    }
+  }
+}

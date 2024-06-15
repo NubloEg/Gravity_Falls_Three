@@ -1,0 +1,34 @@
+.blockImg {
+  height: 100dvh;
+  position: relative;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  object-fit: contain;
+  animation: logo_ghost 10s forwards infinite ease;
+}
+
+@keyframes logo_ghost {
+  0% {
+    top: 50%;
+  }
+
+  50% {
+    top: 60%;
+  }
+
+  100% {
+    top: 50%;
+  }
+}
