@@ -27,6 +27,7 @@ export default function Character({ name, index }: Props) {
           frameloop="demand"
           shadows
           camera={{ position: [20, 0, 5], fov: 25, zoom: state.zoom }}
+          gl={{ preserveDrawingBuffer: true }}
         >
           <ambientLight intensity={0.6} />
           <directionalLight color="white" position={[1, 1, 2]} />

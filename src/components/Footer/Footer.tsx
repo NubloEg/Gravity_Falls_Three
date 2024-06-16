@@ -5,7 +5,7 @@ import { Suspense } from "react";
 import s from "./Footer.module.scss";
 
 export default function Footer() {
-  const model = useGLTF("../../../public/model/End/scene.gltf");
+  const model = useGLTF("/model/End/scene.gltf");
 
   return (
     <div className={s.box}>
@@ -21,6 +21,10 @@ export default function Footer() {
           <OrbitControls
             enablePan={false}
             enableZoom={false}
+            maxPolarAngle={1.6}
+            minPolarAngle={1.5}
+            maxAzimuthAngle={0.3}
+            minAzimuthAngle={-0.1}
           />
           <mesh position={[0, -0.3, 0]} rotation={[0.3, -0.9, -0.1]}>
             <primitive object={model.scene} />
