@@ -1,11 +1,12 @@
-import { OrbitControls, useGLTF } from "@react-three/drei";
-import { Canvas } from "@react-three/fiber";
+import { Loader, OrbitControls } from "@react-three/drei";
+import { Canvas, useLoader } from "@react-three/fiber";
 import { Suspense } from "react";
 
 import s from "./Footer.module.scss";
+import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader.js";
 
 export default function Footer() {
-  const model = useGLTF("/model/End/scene.gltf");
+  const model = useLoader(GLTFLoader, "/model/End/scene.gltf");
 
   return (
     <div className={s.box}>
@@ -17,7 +18,8 @@ export default function Footer() {
         <ambientLight intensity={0.6} />
         <directionalLight color="white" position={[1, 1, 2]} />
         <directionalLight color="white" position={[-1, 1, -2]} />
-        <Suspense>
+        <Loader />
+        <Suspense fallback={<Loader />}>
           <OrbitControls
             enablePan={false}
             enableZoom={false}

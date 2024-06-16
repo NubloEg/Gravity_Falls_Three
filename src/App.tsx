@@ -6,6 +6,11 @@ import Overview from "./components/Overview/Overview";
 import Start from "./components/Start/Start";
 
 function App() {
+  const i = 1;
+  if (i < 0) {
+    return <div style={{ color: "black" }}>Loading</div>;
+  }
+
   return (
     <>
       <Start />

@@ -1,11 +1,12 @@
-import { Canvas } from "@react-three/fiber";
+import { Canvas, useLoader } from "@react-three/fiber";
 import { Suspense } from "react";
 import {
   CharacterName,
   getCharacter,
 } from "../../common/Characters/Characters";
 import s from "./Character.module.scss";
-import { OrbitControls, useGLTF } from "@react-three/drei";
+import { Loader, OrbitControls } from "@react-three/drei";
+import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader.js";
 
 interface Props {
   name: CharacterName;
@@ -14,7 +15,7 @@ interface Props {
 
 export default function Character({ name, index }: Props) {
   const state = getCharacter(name);
-  const model = useGLTF(state.model);
+  const model = useLoader(GLTFLoader, state.model);
 
   return (
     <div
@@ -32,7 +33,7 @@ export default function Character({ name, index }: Props) {
           <ambientLight intensity={0.6} />
           <directionalLight color="white" position={[1, 1, 2]} />
           <directionalLight color="white" position={[-1, 1, -2]} />
-          <Suspense>
+          <Suspense fallback={<Loader />}>
             <OrbitControls enablePan={false} enableZoom={false} />
             <mesh position={state.position} rotation={state.rotate}>
               {state?.model && <primitive object={model.scene} />}
