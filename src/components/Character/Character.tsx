@@ -5,7 +5,7 @@ import {
   getCharacter,
 } from "../../common/Characters/Characters";
 import s from "./Character.module.scss";
-import { Loader, OrbitControls } from "@react-three/drei";
+import { OrbitControls, Preload } from "@react-three/drei";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader.js";
 
 interface Props {
@@ -33,18 +33,19 @@ export default function Character({ name, index }: Props) {
           <ambientLight intensity={0.6} />
           <directionalLight color="white" position={[1, 1, 2]} />
           <directionalLight color="white" position={[-1, 1, -2]} />
-          <Suspense fallback={<Loader />}>
+          <Suspense fallback={<div>Грузим...</div>}>
             <OrbitControls enablePan={false} enableZoom={false} />
             <mesh position={state.position} rotation={state.rotate}>
               {state?.model && <primitive object={model.scene} />}
             </mesh>
           </Suspense>
+          <Preload all />
         </Canvas>
       </div>
       <div className={s.textBlock}>
         <div className={s.center}>
           <div className={s.name}>{state?.name}</div>
-          <div>{state?.desciption}</div>
+          <div className={s.desciption}>{state?.desciption}</div>
         </div>
       </div>
     </div>

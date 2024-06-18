@@ -21,12 +21,39 @@
     justify-content: center;
 
     .center {
-        min-width: 60%;
-        max-width: 85%;
+      min-width: 60%;
+      max-width: 85%;
       .name {
         font-weight: 700;
         font-size: 34px;
         text-align: left;
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    height: max-content;
+    align-items:center;
+
+    .imgBlock {
+      width: 60%;
+      height: 40dvh;
+      order: 1 !important;
+    }
+
+    .textBlock {
+      width: 100%;
+      font-size: 16px;
+      display: flex;
+      justify-content: center;
+
+      .center {
+        .name {
+          font-weight: 700;
+          font-size: 34px;
+          text-align: center;
+        }
       }
     }
   }

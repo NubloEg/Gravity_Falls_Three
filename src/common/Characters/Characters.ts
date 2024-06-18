@@ -56,10 +56,10 @@ export const getCharacter = (name: CharacterName) => {
         desciption:
           "Двоюродный дедушка Диппера и Мэйбл Пайнс, постоянный житель городка Гравити Фолз. После многих лет мошенничества и преступлений он поселился в отдалённом городке Гравити Фолз, штат Орегон[23], где руководит ловушкой для туристов, Хижиной Чудес.",
         model: "/model/Stan/scene.gltf",
-        position: new Vector3(0, -1, 0),
+        position: new Vector3(0, -1, -1),
         rotate: new Euler(0, 1.4, 0),
         zoom: 1.3,
-        color: "#a44563",
+        color: "#D7D7D7",
       };
     case CharacterName.Bill:
       return {
