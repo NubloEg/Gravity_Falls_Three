@@ -6,7 +6,7 @@ import s from "./Start.module.scss";
 export default function Start() {
   return (
     <>
-      <div className={s.blockImg}>
+      <div id="start" className={s.blockImg}>
         <img className={s.logo} src={logo} alt="" />
         <img className={s.img} src={ms} alt="" />
       </div>

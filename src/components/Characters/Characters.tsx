@@ -6,7 +6,7 @@ import s from "./Characters.module.scss";
 
 export default function Characters() {
   return (
-    <div className={s.block}>
+    <div id="characters" className={s.block}>
       <h1 className={s.title}>Персонажи</h1>
       <div className={s.line}></div>
 

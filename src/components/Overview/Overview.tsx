@@ -2,7 +2,7 @@ import s from "./Overview.module.scss";
 
 export default function Overview() {
   return (
-    <div className={s.block}>
+    <div id="overview" className={s.block}>
       <h1 className={s.title}>Обзор</h1>
       <div className={s.line}></div>
       <div className={s.description}>

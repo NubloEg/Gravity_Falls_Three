@@ -6,6 +6,7 @@ import Characters from "./components/Characters/Characters";
 import Footer from "./components/Footer/Footer";
 import Overview from "./components/Overview/Overview";
 import Start from "./components/Start/Start";
+import Menu from "./common/Menu/Menu";
 
 function App() {
   const [load, setLoad] = useState(true);
@@ -22,6 +23,7 @@ function App() {
       <Start />
       <Overview />
       <Characters />
+      <Menu />
       {Object.keys(CharacterName).map((el, index) => (
         <Character key={el} index={index} name={el as CharacterName} />
       ))}
