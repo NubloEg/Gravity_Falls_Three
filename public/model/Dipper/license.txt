@@ -1,11 +1,11 @@
 Model Information:
-* title:	Funkopop Dipper Gravity Falls
-* source:	https://sketchfab.com/3d-models/funkopop-dipper-gravity-falls-b2dc3f832cf547408398ebdb3d8409be
-* author:	Vladimir (https://sketchfab.com/MAKLIK)
+* title:	Dipper Pines
+* source:	https://sketchfab.com/3d-models/dipper-pines-e55c6fcf2db4430697fbaa5099b78548
+* author:	ivan.vladimirov08 (https://sketchfab.com/ivan.vladimirov08)
 
 Model License:
 * license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
 * requirements:	Author must be credited. Commercial use is allowed.
 
 If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
-This work is based on "Funkopop Dipper Gravity Falls" (https://sketchfab.com/3d-models/funkopop-dipper-gravity-falls-b2dc3f832cf547408398ebdb3d8409be) by Vladimir (https://sketchfab.com/MAKLIK) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+This work is based on "Dipper Pines" (https://sketchfab.com/3d-models/dipper-pines-e55c6fcf2db4430697fbaa5099b78548) by ivan.vladimirov08 (https://sketchfab.com/ivan.vladimirov08) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
