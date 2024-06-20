@@ -13,20 +13,21 @@ function App() {
   useLayoutEffect(() => {
     setTimeout(() => {
       setLoad(false);
+      document.body.style.overflowY = "auto";
     }, 2000);
   }, []);
 
   return (
-    <>
+    <div>
       <Start />
       <Overview />
       <Characters />
       {Object.keys(CharacterName).map((el, index) => (
         <Character key={el} index={index} name={el as CharacterName} />
       ))}
-      <Footer  />
+      <Footer />
       {load && <Loader />}
-    </>
+    </div>
   );
 }
 

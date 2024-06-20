@@ -20,9 +20,10 @@ body {
   min-width: 320px;
   min-height: 100dvh;
   overflow-x: hidden;
-  background-color:white;
+  background-color: white;
+  overflow-y: hidden;
 }
 
-body::-webkit-scrollbar{
+body::-webkit-scrollbar {
   width: 0px;
 }
